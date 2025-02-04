@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+
+# CDK asset staging directory
+.cdk.staging/
+cdk.out/
+
+# TypeScript
+*.js
+*.d.ts
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,37 @@
+{
+  "name": "appsync-auth-cache-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "ts-node scripts/deploy.ts",
+    "cdk": "cdk",
+    "bootstrap": "ts-node scripts/bootstrap.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-appsync": "^3.0.0",
+    "@aws-sdk/client-lambda": "^3.0.0",
+    "aws-cdk-lib": "^2.0.0",
+    "amazon-cognito-identity-js": "^6.3.7",
+    "constructs": "^10.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "@types/aws-lambda": "^8.10.147",
+    "aws-cdk": "^2.0.0",
+    "aws-sdk": "^2.1000.0",
+    "jest": "^29.0.0",
+    "node-fetch": "^2.6.1",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "AppSync API with Lambda Authorizer test project for bug reproduction",
+  "volta": {
+    "node": "22.13.1"
+  }
+}
